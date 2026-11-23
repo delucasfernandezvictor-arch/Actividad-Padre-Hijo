@@ -1,0 +1,7 @@
+{
+  "name": "actividad-padre-hijo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

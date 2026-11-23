@@ -1,0 +1,15 @@
+.home__contenedor {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.home__intro {
+  padding-bottom: 0;
+}
+
+.home__footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--ion-color-medium);
+  padding: 16px;
+}

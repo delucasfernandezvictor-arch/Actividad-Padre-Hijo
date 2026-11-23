@@ -1,0 +1,38 @@
+.hijo {
+  border-left: 6px solid var(--ion-color-primary);
+  margin: 0;
+}
+.hijo--secondary {
+  border-left-color: var(--ion-color-secondary);
+}
+.hijo--tertiary {
+  border-left-color: var(--ion-color-tertiary);
+}
+
+.hijo__label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin: 8px 0 4px;
+}
+
+.hijo__mensaje {
+  background: var(--ion-color-light);
+  color: var(--ion-color-light-contrast);
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 0 0 8px;
+  min-height: 40px;
+}
+
+.hijo__input {
+  --background: transparent;
+  --padding-start: 0;
+  margin-top: 8px;
+}
+
+.hijo__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}

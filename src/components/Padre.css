@@ -1,0 +1,33 @@
+.padre {
+  border-left: 6px solid var(--ion-color-primary);
+}
+
+.padre__input {
+  --background: transparent;
+  --padding-start: 0;
+}
+
+.padre__estado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+.padre__subtitulo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 12px 0 6px;
+}
+
+.padre__historial {
+  margin: 0;
+}
+
+.padre__hijos {
+  padding: 0 6px;
+}
